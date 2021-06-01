@@ -21,3 +21,4 @@ linklint-*.zip
 linklint/
 .checkstyle
 **/.checkstyle
+LIB

@@ -324,7 +324,7 @@ object HBaseTableCatalog {
   @InterfaceAudience.Private
   def generateSchemaMappingMap(schemaMappingString:String):
   java.util.HashMap[String, SchemaQualifierDefinition] = {
-    println(schemaMappingString)
+    // println(schemaMappingString)
     try {
       val columnDefinitions = schemaMappingString.split(',')
       val resultingMap = new java.util.HashMap[String, SchemaQualifierDefinition]()
